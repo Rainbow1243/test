@@ -1,0 +1,6 @@
+_G.AutoFarm = false
+while _G.AutoFarm do wait()
+game:GetService("Players").LocalPlayer.ninjaEvent:FireServer("swingKatana")
+wait(.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(72.20498657226562, 21.512922286987305, -48.516117095947266)
+end
