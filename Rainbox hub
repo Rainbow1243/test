@@ -1,4 +1,4 @@
-_G.AutoFarm = false
+_G.AutoFarm = ture
 while _G.AutoFarm do wait()
 game:GetService("Players").LocalPlayer.ninjaEvent:FireServer("swingKatana")
 wait(.1)
